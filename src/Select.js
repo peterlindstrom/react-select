@@ -827,6 +827,7 @@ class Select extends React.Component {
 						onRemove={this.removeValue}
 						placeholder={this.props.placeholder}
 						value={value}
+						index={index}
 					>
 						{renderLabel(value, i)}
 						<span className="Select-aria-only">&nbsp;</span>
